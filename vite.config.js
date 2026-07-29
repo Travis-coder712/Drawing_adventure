@@ -4,4 +4,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/Drawing_adventure/',
+  server: { port: 5180, strictPort: false },
 })
